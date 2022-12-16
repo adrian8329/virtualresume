@@ -1,0 +1,257 @@
+html{
+    background-image: linear-gradient(45deg, rgb(162, 242, 255)  1%,rgb(0, 219, 255) 31%,rgb(23, 132, 255) 81%,rgb(73, 91, 246) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    padding-bottom: 100px;
+}
+
+.container{
+    height: 340px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: -3px 6px 4px rgba(8, 8, 8, 0.5);
+}
+
+.container1{
+    height: 290px;
+    width: 1000px;
+}
+
+.container2{
+    clear: both;
+    height: 50px;
+    width: 1000px;
+    position: relative;
+}
+
+.prof img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    float: left;
+    margin: 20px;
+    box-shadow: -1px 2px 4px rgba(8, 8, 8, 0.5);
+}
+
+.aboutme{
+    color: white;
+    float: left;
+    margin: 20px;
+    width: 670px;
+    height: 250px;
+}
+
+.aboutme h1{
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.aboutme p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.but{
+    height: 50px;
+    width: 425px;
+    float: left;
+}
+
+.but button{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.but:hover{
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.icons div{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.icons img{
+    width: 30px;
+    padding: 10px;
+}
+
+.ic:hover{
+    background-color: #000;
+    opacity: 0.3;
+}
+
+/* MORE */
+
+.morecontainer{
+    margin: 100px auto;
+    width: 1000px;
+    min-height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: -3px 6px 4px rgba(8, 8, 8, 0.5);
+}
+
+.back{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.back img{
+    width: 30px;
+    padding: 10px;
+}
+
+.back img:hover{
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.moretitle{
+    float: left;
+    text-align: center;
+    width: 950px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.info{
+    width: 960px;
+    padding-top: 60px;
+}
+
+.info details{
+    padding: 0;
+    margin: 0;
+}
+
+.sum{
+    margin-bottom: 20px;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+}
+
+.sum:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.exp{
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding: 20px 20px;
+}
+.exp tr th{
+    padding: 10px;
+    font-weight: normal;
+}
+
+.exp tr th h1{
+    font-size: 20px;
+}
+
+.slides1{
+    height: 290px;
+    width: 1000px;
+}
+
+.slid{
+    display: none;
+}
+
+.slid2{
+    display: none;
+}
+
+#slid img{
+    width: 330px;
+    float: left;
+    margin: 20px;
+    box-shadow: -1px 2px 4px rgba(8, 8, 8, 0.5);
+}
+
+.descp a{
+    text-decoration: none;
+    padding: 5px 5px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -1px 2px 4px rgba(8, 8, 8, 0.5);
+    float: left;
+}
+
+.descp a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.slidp{
+    margin-top: 10px;
+    float: left;
+}
+
+.descp{
+    color: white;
+    float: left;
+    margin: 20px;
+    width: 590px;
+    height: 200px;
+}
+
+.descp h1{
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -1px 2px 4px rgba(8, 8, 8, 0.5);
+    text-align: center;
+}
+
+.descp p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    max-height: 100%;
+    clear: both;
+    float: left;
+}
+
+.info1{
+    width: 960px;
+    padding-top: 140px;
+}
+
+.info1 details{
+    padding: 0;
+    margin: 0;
+}
